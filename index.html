@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "header">
+                ROCK PAPER SCISSORS
+            </div>
+            <div class="main-game">
+                <div class="game-item">
+                    <div class="player-name">User</div>
+                    <img class="user-choose" src="./images/batu.png" data-item=0 width = "80"/>
+                    <img class="user-choose" src="./images/kertas.png" data-item=1 width = "80"/>
+                    <img class="user-choose" src="./images/gunting.png" data-item=2 width = "80"/>
+                    <!-- <img src = "./images/gunting.png"> -->
+                </div>
+                <div class="game-item">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>
+                        <img src="./images/versus.png" width="200"/>
+                    </div>
+                    <div id="final-result"></div>
+                    <div class="refresh-image">
+                        <img src="./images/reset.png" width="50"/>
+                    </div>
+                </div>
+
+                <div class="game-item">
+                    <div class="player-name">Computer</div>
+                    <img class="user-choose" src="./images/batu.png" data-item=0 width = "80" id="comp-0" />
+                    <img class="user-choose" src="./images/kertas.png" data-item=1 width = "80" id="comp-1" />
+                    <img class="user-choose" src="./images/gunting.png" data-item=3 width = "80" id="comp-2" />
+                </div>
+            </div>
+        </div>
+        <script src = "./index.js">
+        </script>
+    </body>
+</html>
